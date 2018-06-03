@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:orientation="vertical"
+    tools:context="com.example.vudou.weatherapp.SecondActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:id="@+id/second_back"
+            android:layout_gravity="center"
+            android:layout_margin="13dp"
+            android:src="@drawable/ic_back"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/second_title"
+            android:layout_marginTop="10dp"
+            android:text="Weather"
+            android:textSize="25dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/colorWhite"/>
+
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:id="@+id/second_add"
+            android:src="@drawable/ic_add"
+            android:layout_alignParentRight="true"
+            android:layout_margin="13dp"/>
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/second_recyclerView"
+        android:background="@color/colorBackground2"></android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

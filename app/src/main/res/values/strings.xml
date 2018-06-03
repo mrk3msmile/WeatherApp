@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Weather App</string>
+    <string name="hintSearch">City, Statue</string>
+    <string name="sunRise">"Sun rise: "</string>
+    <string name="sunSet">"Sun set: "</string>
+    <string name="thunderstorm_light_rain">thunderstorm with light rain</string>
+    <string name="thunderstorm_rain">thunderstorm with rain</string>
+    <string name="thunderstorm_heavy_rain">thunderstorm with heavy rain</string>
+    <string name="light_thunderstorm">light thunderstorm</string>
+    <string name="thunderstorm">thunderstorm</string>
+    <string name="heavy_thunderstorm">heavy thunderstorm</string>
+    <string name="ragged_thunderstorm">ragged thunderstorm</string>
+    <string name="thunderstorm_light_drizzle">thunderstorm with light drizzle</string>
+    <string name="thunderstorm_drizzle">thunderstorm with drizzle</string>
+    <string name="thunderstorm_heavy_drizzle">thunderstorm with heavy drizzle</string>
+</resources>

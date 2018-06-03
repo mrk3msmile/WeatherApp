@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Thời tiết</string>
+    <string name="hintSearch">Thành phố, Quốc gia</string>
+    <string name="sunRise">"Bình minh: "</string>
+    <string name="sunSet">"Hoàng Hôn: "</string>
+    <string name="thunderstorm_light_rain">Bão có mưa nhẹ</string>
+    <string name="heavy_thunderstorm">Bão mạnh</string>
+    <string name="light_thunderstorm">Bão nhẹ</string>
+    <string name="ragged_thunderstorm">Bão rải rác</string>
+    <string name="thunderstorm">Bão</string>
+    <string name="thunderstorm_drizzle">Bão có mưa phùn</string>
+    <string name="thunderstorm_heavy_drizzle">Bão có mưa</string>
+    <string name="thunderstorm_heavy_rain">Bão có mưa nặng hạt</string>
+    <string name="thunderstorm_light_drizzle">Bão có mưa phùn</string>
+    <string name="thunderstorm_rain">Bão có mưa</string>
+</resources>
